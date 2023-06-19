@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+:root{
+    --principalColor: #0000007c;
+    --secondeColor: #00000094;
+    --thirdColor: #ffffff;
+    font-family: 'Special Elite', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*Menu de navegação*/
+.bannerHeader>img {
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+    position:relative;
+    top: 3em;
+    left: 0em;
+    filter: blur(0.18em);
+}
+
+.logo {
+    width: 100%;
+    position: absolute;
+    top: 3em;
+    align-items:first baseline;
+}
+
+.logo>img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 25em;
+}
+
+.navBar > ul {
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 3em;
+    position: fixed;
+    background-color: var(--principalColor);
+}
+
+.navBar a {
+    background-color: var(--secondeColor);
+    padding: 0.6em;
+    color: var(--thirdColor);
+    text-decoration: none;
+    border-radius: 0.3em;
+}
+
+main img {
+    width: 18.7em;
+    height: auto;
+}
+
+/*corpo da página*/
+body {
+    background-color: var(--principalColor);
+    text-align: center;
+}
+
+main > h1, p {
+    color: var(--thirdColor);
+}
+
+main > h1 {
+    font-size: 3.12em;
+    margin-top: 1.2em;
+}
+
+main > p {
+    font-size: 2em;
+}
+
+.catalogBox h2 {
+    color: var(--thirdColor);
+    font-size: 2.5em;
+    background-color: var(--secondeColor);
+    border-radius: 3.12em;
+    padding: 0.6em;
+}
+
+.catalogBox div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*imagens do catálogo*/
+.catalogBox img {
+    height: 21.8em;
+    width: auto;
+    padding: 1.8em;
+    background-color: var(--secondeColor);
+    border-radius: 3.12em;
+}
+
+.catalogBox figcaption {
+    color: var(--thirdColor);
+    font-size: 1.3em;
+}
+
+/*Rodapé*/
+footer {
+    background-color: var(--secondeColor);
+    padding: 0.6em;
+    border-radius: 3.12em;
+}
+
+footer > p {
+    color: var(--principalColor);
+    font-size: 1.25em;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 400px){
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    .navBar > ul {
+        justify-content: space-around;
+        font-size: 13px;
+    }
+    .bannerHeader>img {
+        height: 12em;
+        width: 100%;
+        object-fit: cover;
+    }
+    .logo{
+        top: 2.3em;
+    }
+    .logo>img {
+        height: 12em;
+    }
+    main > h1 {
+        font-size: 2em;
+    }
+    main > p {
+        font-size: 1.2em;
+    }
+    .catalogBox h2 {
+        font-size: 2em;
+        padding: 0.4em;
+    }
+}
+.logo_inst{
+    color: black;
+    font-size: 25px;
+    align-items: start;
+    display: Flex;
+}
+.logo-ins{
+    width: 100px;
+    height: 100%;
+
+}
