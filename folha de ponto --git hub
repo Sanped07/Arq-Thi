@@ -1,0 +1,175 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMXqJds8CnIFrqv+vMqEOYf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sanped07/Arq-Thi/blob/main/folha%20de%20ponto%20--git%20hub\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "dco1tAMC-mnk"
+      },
+      "outputs": [],
+      "source": [
+        "#print (11) #int\n",
+        "#print (-11) #int\n",
+        "#print(0)\n",
+        "'''\n",
+        "float é o número com ponto flutuante\n",
+        "o tipo float representa qualquer número\n",
+        "o positivo ou negativo com ponto flutuante é considerado positivo\n",
+        "'''\n",
+        "#print(1.1, 10.11)\n",
+        "#print(0.0, -1.5)\n",
+        "\n",
+        "print( type(1.57))\n",
+        "\n",
+        "print(type(1), type('pedro'))\n",
+        "print(type(-1))\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipo de dado bool (boolean)\n",
+        "#Ao questionar algo em um programa,\n",
+        "#só existem duas respostas possíveis:\n",
+        "#sim (true) ou não (False)\n",
+        "#Existem vários operadores para \"questionar\".\n",
+        "#Dentre eles o ==, que é um operador lógio que\n",
+        "#questiona se um valor é igual  a outro .\n"
+      ],
+      "metadata": {
+        "id": "gmNGQakcFVZK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from __future__ import print_function\n",
+        "nome_completo = 'Pedro H Amaral'\n",
+        "idade = 22\n",
+        "ano_de_nascimento = 2023-idade\n",
+        "peso = 72\n",
+        "altura = 1.75\n",
+        "imc = peso/(altura**2)\n",
+        "\n",
+        "print(nome_completo,',', 'tem', idade,'anos')\n",
+        "print('Nasceu no ano de:', ano_de_nascimento,'e recebe o sálario de R$',salario )\n",
+        "print('tem ',altura,'M de altura e pesa',peso,'kg')\n",
+        "print('Seu imc é:',imc)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 252
+        },
+        "id": "Lqf4R9_678iY",
+        "outputId": "47614db3-333c-4f42-9cbc-0b4fd79aedf7"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Pedro H Amaral , tem 22 anos\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-1-cdea6d9648cf>\u001b[0m in \u001b[0;36m<cell line: 10>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mnome_completo\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m','\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'tem'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0midade\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m'anos'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Nasceu no ano de:'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mano_de_nascimento\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m'e recebe o sálario de R$'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0msalario\u001b[0m \u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'tem '\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0maltura\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m'M de altura e pesa'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mpeso\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m'kg'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Seu imc é:'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mimc\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'salario' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from datetime import datetime\n",
+        "\n",
+        "# Dicionário para armazenar os registros de entrada e saída dos funcionários\n",
+        "registros = {}\n",
+        "\n",
+        "# Função para registrar o horário de entrada\n",
+        "def registrar_entrada():\n",
+        "    funcionario = input(\"Digite o nome do funcionário: \")\n",
+        "    hora_entrada = datetime.now()\n",
+        "    registros[funcionario] = {\"entrada\": hora_entrada}\n",
+        "\n",
+        "# Função para registrar o horário de saída\n",
+        "def registrar_saida():\n",
+        "    funcionario = input(\"Digite o nome do funcionário: \")\n",
+        "    hora_saida = datetime.now()\n",
+        "    registros[funcionario][\"saida\"] = hora_saida\n",
+        "\n",
+        "# Função para calcular as horas trabalhadas\n",
+        "def calcular_horas_trabalhadas():\n",
+        "    funcionario = input(\"Digite o nome do funcionário: \")\n",
+        "    registro = registros[funcionario]\n",
+        "    hora_entrada = registro[\"entrada\"]\n",
+        "    hora_saida = registro[\"saida\"]\n",
+        "    horas_trabalhadas = hora_saida - hora_entrada\n",
+        "    print(f\"Horas trabalhadas por {funcionario}: {horas_trabalhadas}\")\n",
+        "\n",
+        "# Menu principal\n",
+        "while True:\n",
+        "    print(\"----- Folha de Ponto -----\")\n",
+        "    print(\"1 - Registrar entrada\")\n",
+        "    print(\"2 - Registrar saída\")\n",
+        "    print(\"3 - Calcular horas trabalhadas\")\n",
+        "    print(\"0 - Sair\")\n",
+        "\n",
+        "    opcao = input(\"Digite a opção desejada: \")\n",
+        "\n",
+        "    if opcao == \"1\":\n",
+        "        registrar_entrada()\n",
+        "    elif opcao == \"2\":\n",
+        "        registrar_saida()\n",
+        "    elif opcao == \"3\":\n",
+        "        calcular_horas_trabalhadas()\n",
+        "    elif opcao == \"0\":\n",
+        "        break\n",
+        "    else:\n",
+        "        print(\"Opção inválida. Tente novamente.\")\n"
+      ],
+      "metadata": {
+        "id": "Jn45B_gsRUPB"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
